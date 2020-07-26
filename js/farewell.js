@@ -136,7 +136,7 @@ Commands: \
   var you_are_late =
     "\
 \n\nWe are in the Endgame now!\
-\nIn order to retrieve your invitation, first install farewell gem using [[b;#859900;]gem install farewell]command.\n ";
+\nIn order to retrieve your invitation, first install farewell gem using [[b;#859900;]gem install farewell] command.\n ";
   if (days_left >= 0) {
     you_are_late = "";
   }
