@@ -1,30 +1,38 @@
 :root {
-    --ff-sans: 'Inter', sans-serif;
-    --ff-serif: "Playfair Display", serif;
-    --fs-md: 1.125rem;
-    --fs-xl: clamp(1rem, 4vw, 4rem);
-    --clr-night-blue: #02021d;
-    --clr-pale-blue: #e7effd;
+  --ff-sans: "Inter", sans-serif;
+  --ff-serif: "Playfair Display", serif;
+  --fs-md: 1.125rem;
+  --fs-xl: clamp(1rem, 4vw, 4rem);
+  --clr-night-blue: #02021d;
+  --clr-pale-blue: #e7effd;
 }
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+.headerSection {
+  height: 100vh;
+  scroll-snap-align: start;
+}
 .blogSection {
-    height: 100vh;
-    background: white;
+  height: 100vh;
+  background: white;
+  scroll-snap-align: start;
 }
 .projectsSection {
-    height: 100vh;
+  height: 100vh;
+  scroll-snap-align: start;
 }
-.Designs {
-    height: 100vh;
+.designsSection {
+  height: 100vh;
+  scroll-snap-align: start;
 }
-dbody {
-    position: relative;
-    height: 100vh;
-    background-color: var(--clr-night-blue);
-    font-family: var(--ff-sans);
-    font-size: var(--fs-md);
-    color: var(--clr-pale-blue);
-    user-select: none;
+.aboutSection {
+  height: 100vh;
+  scroll-snap-align: start;
+  background-color: white;
+}
+.footerSection {
+  height: 70vh;
+  scroll-snap-align: end;
 }

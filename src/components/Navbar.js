@@ -9,33 +9,56 @@ const Navbar = () => {
     <div style={{ textAlign: "left", zIndex: "1000" }}>
       <div
         style={{
-          marginTop: "2vh",
-          marginBottom: "5vh",
-          marginLeft: "1vw",
-          textShadow: "-2px 2px 7px gray",
+          backgroundColor: "rgba(174, 174, 190, 0.2)",
+          marginTop: "0px",
+          marginBottom: "10vh",
+          paddingTop: "0px",
+          height: "10vh",
+          boxShadow: "0px 1px 2px rgba(255, 255, 255, 0.2)",
         }}
       >
-        <h1 style={{ fontWeight: 100 }}>
-          piedpipr/
-          <a style={{ fontWeight: 600 }}>PROTIK</a>
-        </h1>
+        <div
+          style={{
+            paddingTop: "2vh",
+            marginBottom: "20vh",
+            marginLeft: "1vw",
+            textShadow: "-2px 2px 7px gray",
+          }}
+        >
+          <h1 style={{ fontWeight: 600 }}>
+            protik
+            <a style={{ fontWeight: 100 }}>
+              chanda<span className="blink">_</span>
+            </a>
+          </h1>
+        </div>
       </div>
 
       <section className="stageNav">
         <div id="home" className="divItem">
           <p id="homep" className="pNav">
-            Blog
+            <Link className="linkStyle" to="#recentPosts">
+              Blog
+            </Link>
           </p>
         </div>
         <div className="divItem" id="about">
-          <p className="pNav">Projects</p>
+          <p className="pNav">
+            <Link className="linkStyle" to="#myProjects">
+              Projects
+            </Link>
+          </p>
         </div>
         <div className="divItem" id="contact">
-          <p className="pNav">Designs</p>
+          <p className="pNav">
+            <Link className="linkStyle" to="#myDesigns">
+              Designs
+            </Link>
+          </p>
         </div>
         <div className="divItem" id="gallery">
           <p className="pNav">
-            <Link to="/about" style={{ textDecoration: "none" }}>
+            <Link className="linkStyle" to="#aboutMe">
               About
             </Link>
           </p>

@@ -72,7 +72,6 @@ export default function Background(props) {
           </div>
 
           <span className="quote-caption">
-            {" "}
             A rather erratic journey to the unknown
           </span>
         </div>
