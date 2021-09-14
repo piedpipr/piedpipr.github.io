@@ -1,8 +1,8 @@
 :root {
   --ff-sans: "Inter", sans-serif;
   --ff-serif: "Playfair Display", serif;
-  --fs-md: 1.125rem;
-  --fs-xl: clamp(1rem, 4vw, 4rem);
+  /* --fs-md: 1.125rem;
+  --fs-xl: clamp(1rem, 4vw, 4rem); */
   --clr-night-blue: #02021d;
   --clr-pale-blue: #e7effd;
 }

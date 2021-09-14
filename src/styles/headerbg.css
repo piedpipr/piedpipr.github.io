@@ -2,8 +2,8 @@
 :root {
   --ff-sans: "Inter", sans-serif;
   --ff-serif: "Playfair Display", serif;
-  --fs-md: clamp(0.5rem, 2vw, 3rem);
-  --fs-xl: clamp(1.5rem, 3vw, 4rem);
+  --fs-md: clamp(0.5rem, 1vw, 2rem);
+  --fs-xl: clamp(3vw, 3.5vw, 4vw);
   --clr-night-blue: #02021d;
   --clr-pale-blue: #e7effd;
 }
@@ -19,7 +19,7 @@ body {
   height: 100vh;
   background-color: var(--clr-night-blue);
   font-family: var(--ff-sans);
-  font-size: var(--fs-md);
+  /* font-size: var(--fs-md); */
   color: var(--clr-pale-blue);
   user-select: none;
 }
@@ -137,6 +137,7 @@ body {
   .quote-line {
     margin-top: 0%;
     padding-top: 0%;
+    font-size: 5vw;
   }
 }
 /* END My Customizations */
