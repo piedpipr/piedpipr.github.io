@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaGithubSquare } from "@react-icons/all-files/fa/FaGithubSquare";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { Link } from "gatsby";
 import $ from "jquery";
 import jQuery from "jquery";
@@ -6,7 +9,7 @@ import "../styles/navbar.css";
 const Navbar = () => {
   useEffect(() => {});
   return (
-    <div style={{ textAlign: "left", zIndex: "1000" }}>
+    <div style={{ zIndex: "1000" }}>
       <div className="myLogo">
         <div className="logoText">
           <h1 style={{ fontWeight: 600 }}>
@@ -15,6 +18,11 @@ const Navbar = () => {
               chanda<span className="blink">_</span>
             </a>
           </h1>
+        </div>
+        <div className="navbarContact">
+          <FaLinkedin style={{ height: "2em", width: "2em" }} />
+          <FaTwitterSquare style={{ height: "2em", width: "2em" }} />
+          <FaGithubSquare style={{ height: "2em", width: "2em" }} />
         </div>
       </div>
 
