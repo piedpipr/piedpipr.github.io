@@ -1,3 +1,4 @@
+/* Background and balls */
 :root {
   --ff-sans: "Inter", sans-serif;
   --ff-serif: "Playfair Display", serif;
@@ -57,7 +58,20 @@ body {
   background-image: url("../images/circle-bg.jpg");
   background-size: cover;
   z-index: -6;
+  animation: blinkerCircle 1.5s infinite;
 }
+@keyframes blinkerCircle {
+  from {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .layer:nth-child(1) .circle:nth-child(1) {
   --size: 6rem;
   top: 14%;
@@ -111,3 +125,18 @@ body {
   bottom: 8%;
   right: 36%;
 }
+/* END Background and Balls */
+
+/* My Customizations */
+
+@media only screen and (max-width: 600px) {
+  .quote {
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  .quote-line {
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+}
+/* END My Customizations */

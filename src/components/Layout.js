@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp";
+import $ from "jquery";
 import Header from "./Header";
 import Posts from "./Posts";
 import Projects from "./Projects";
@@ -7,7 +9,27 @@ import Footer from "./Footer";
 import "../styles/global.css";
 import About from "./About";
 
-export default function Layout(props) {
+export default function Layout() {
+  useEffect(
+    () => {
+      /////////////////////////
+      var btn = $("#buttonUp");
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass("show");
+        } else {
+          btn.removeClass("show");
+        }
+      });
+
+      btn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300");
+      });
+    }
+    ///////////////////////////
+  );
   return (
     <div style={{ marginTop: "0px", paddingTop: "0px" }}>
       <Header />
@@ -16,6 +38,11 @@ export default function Layout(props) {
       <Designs />
       <About />
       <Footer />
+      <a id="buttonUp">
+        <h2>
+          <FaAngleUp style={{ width: "1em", height: "2em" }} />
+        </h2>
+      </a>
     </div>
   );
 }

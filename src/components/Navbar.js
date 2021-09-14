@@ -7,24 +7,8 @@ const Navbar = () => {
   useEffect(() => {});
   return (
     <div style={{ textAlign: "left", zIndex: "1000" }}>
-      <div
-        style={{
-          backgroundColor: "rgba(174, 174, 190, 0.2)",
-          marginTop: "0px",
-          marginBottom: "10vh",
-          paddingTop: "0px",
-          height: "10vh",
-          boxShadow: "0px 1px 2px rgba(255, 255, 255, 0.2)",
-        }}
-      >
-        <div
-          style={{
-            paddingTop: "2vh",
-            marginBottom: "20vh",
-            marginLeft: "1vw",
-            textShadow: "-2px 2px 7px gray",
-          }}
-        >
+      <div className="myLogo">
+        <div className="logoText">
           <h1 style={{ fontWeight: 600 }}>
             protik
             <a style={{ fontWeight: 100 }}>

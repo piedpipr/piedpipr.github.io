@@ -36,3 +36,39 @@ html {
   height: 70vh;
   scroll-snap-align: end;
 }
+
+/* Floating Button */
+#buttonUp {
+  display: inline-block;
+  background-color: #ff9900b5;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#buttonUp:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#buttonUp:active {
+  background-color: #555;
+}
+#buttonUp.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 500px) {
+  #buttonUp {
+    margin: 30px;
+  }
+}
+
+/* Floating Button End */
