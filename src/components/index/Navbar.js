@@ -3,9 +3,7 @@ import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaGithubSquare } from "@react-icons/all-files/fa/FaGithubSquare";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import { Link } from "gatsby";
-import $ from "jquery";
-import jQuery from "jquery";
-import "../styles/navbar.css";
+import "../../styles/navbar.css";
 const Navbar = () => {
   useEffect(() => {});
   return (
@@ -20,9 +18,15 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="navbarContact">
-          <FaLinkedin style={{ height: "2em", width: "2em" }} />
-          <FaTwitterSquare style={{ height: "2em", width: "2em" }} />
-          <FaGithubSquare style={{ height: "2em", width: "2em" }} />
+          <Link className="linkStyle" to="#recentPosts">
+            <FaLinkedin style={{ height: "2em", width: "2em" }} />
+          </Link>
+          <Link className="linkStyle" to="#recentPosts">
+            <FaTwitterSquare style={{ height: "2em", width: "2em" }} />
+          </Link>
+          <Link className="linkStyle" to="#recentPosts">
+            <FaGithubSquare style={{ height: "2em", width: "2em" }} />
+          </Link>
         </div>
       </div>
 

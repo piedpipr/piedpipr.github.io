@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap/dist/gsap";
 import Navbar from "./Navbar";
-import "../styles/headerbg.css";
+import "../../styles/headerbg.css";
 
 export default function Background(props) {
   useEffect(() => {

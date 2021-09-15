@@ -1,19 +1,54 @@
 import React from "react";
-import Layout from "../components/Layout";
+import { graphql } from "gatsby";
+import styled from "styled-components";
+import LayoutIndex from "../components/LayoutIndex";
 
-export default function index() {
+import { UseSiteMetadata } from "../hooks/UseSiteMetadata";
+
+const StyledH1 = styled.h1`
+  color: rebeccapurple;
+`;
+
+export default function index({ data }) {
+  const { title, description } = UseSiteMetadata();
   return (
     <div>
-      <Layout>
+      <LayoutIndex>
         <section>
-          <h1>HEADER</h1>
-          <h1 style={{ marginTop: "900vh" }}>BLOG</h1>
-          <h1>PROJECTS</h1>
-          <p>Android App Development</p>
-          <h1>DESIGNS</h1>
-          <h1>CONTACTS</h1>
+          <div>
+            <h1>Hello World</h1>
+            <StyledH1>{title}</StyledH1>
+            <p>{description}</p>
+          </div>
+          {/* <div>
+            {data.allMdx.nodes.map(({ excerpt, frontmatter }) => (
+              <>
+                <h1>{frontmatter.title}</h1>
+                <p>{frontmatter.date}</p>
+                <p>{excerpt}</p>
+              </>
+            ))}
+          </div> */}
         </section>
-      </Layout>
+      </LayoutIndex>
     </div>
   );
 }
+
+// export const query = graphql`
+//   query SITE_INDEX_QUERY {
+//     allMdx(
+//       sort: { fields: [frontmatter___date], order: DESC }
+//       filter: { frontmatter: { published: { eq: true } } }
+//     ) {
+//       nodes {
+//         id
+//         excerpt(pruneLength: 250)
+//         frontmatter {
+//           title
+//           date
+//         }
+//       }
+//     }
+//   }
+// `;

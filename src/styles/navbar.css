@@ -36,14 +36,6 @@
   background: white;
   color: #58e366;
 }
-.linkStyle {
-  text-decoration: none;
-  color: white;
-}
-
-.linkStyle:hover {
-  color: #58e366;
-}
 .divItem:nth-child(odd) {
   transform: perspective(300px) rotateY(45deg);
   box-shadow: -2px 2px 7px gray;
@@ -105,9 +97,17 @@
   align-self: flex-start;
   margin-left: auto;
 }
+.linkStyle {
+  text-decoration: none;
+  color: #e7effd;
+}
+
+.linkStyle:hover {
+  color: #58e366;
+}
 @media only screen and (max-width: 600px) {
   .myLogo {
-    box-shadow: 0px 100px 400px #ff9900d1;
+    box-shadow: 0px 80px 400px #ff9900d1;
     height: 20%;
   }
   .logoText {

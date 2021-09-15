@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import { FaAngleUp } from "@react-icons/all-files/fa/FaAngleUp";
 import $ from "jquery";
-import Header from "./Header";
-import Posts from "./Posts";
-import Projects from "./Projects";
-import Designs from "./Designs";
-import Footer from "./Footer";
+import Header from "./index/Header";
+import Posts from "./index/Posts";
+import Projects from "./index/Projects";
+import Designs from "./index/Designs";
+import About from "./index/About";
+import Footer from "./index/Footer";
 import "../styles/global.css";
-import About from "./About";
 
-export default function Layout() {
+export default function LayoutIndex(props) {
   useEffect(
     () => {
       /////////////////////////
@@ -33,6 +33,7 @@ export default function Layout() {
   return (
     <div style={{ marginTop: "0px", paddingTop: "0px" }}>
       <Header />
+      <section>{props.children}</section>
       <Posts />
       <Projects />
       <Designs />

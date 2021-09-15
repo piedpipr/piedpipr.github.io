@@ -2,6 +2,29 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://piedpipr.github.io",
     title: "Protik",
+    description: "Blog and Portfolio of Protik",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/blog/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ],
 };
