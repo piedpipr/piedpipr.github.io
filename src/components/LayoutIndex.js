@@ -23,23 +23,22 @@ export default function LayoutIndex(props) {
         }
       });
 
-      btn.on("click", function (e) {
-        e.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "300");
-      });
+      // btn.on("click", function (e) {
+      //   e.preventDefault();
+      //   $("html, body").animate({ scrollTop: 0 }, "300");
+      // });
     }
     ///////////////////////////
   );
   return (
     <div style={{ marginTop: "0px", paddingTop: "0px" }}>
       <Header />
-      <section>{props.children}</section>
       <Posts />
       <Projects />
       <Designs />
       <About />
       <Footer />
-      <a id="buttonUp">
+      <a id="buttonUp" href="#">
         <h2>
           <FaAngleUp style={{ width: "1em", height: "2em" }} />
         </h2>
