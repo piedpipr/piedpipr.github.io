@@ -10,6 +10,7 @@ import image5 from "../../images/designs/portfolio-05-large.jpg";
 import image6 from "../../images/designs/portfolio-06-large.jpg";
 import image7 from "../../images/designs/portfolio-07-large.jpg";
 import image8 from "../../images/designs/portfolio-08-large.jpg";
+import image9 from "../../images/designs/portfolio-09-large.jpg";
 
 import image1thumb from "../../images/designs/portfolio-01-thumbnail.jpg";
 import image2thumb from "../../images/designs/portfolio-02-thumbnail.jpg";
@@ -19,6 +20,7 @@ import image5thumb from "../../images/designs/portfolio-05-thumbnail.jpg";
 import image6thumb from "../../images/designs/portfolio-06-thumbnail.jpg";
 import image7thumb from "../../images/designs/portfolio-07-thumbnail.jpg";
 import image8thumb from "../../images/designs/portfolio-08-thumbnail.jpg";
+import image9thumb from "../../images/designs/portfolio-09-thumbnail.jpg";
 
 const SectionHeader = styled.h1`
   color: white;
@@ -67,6 +69,10 @@ export default function Designs() {
     {
       src: image8, // required
       thumbnail: image8thumb,
+    },
+    {
+      src: image9, // required
+      thumbnail: image9thumb,
     },
   ];
   return (
