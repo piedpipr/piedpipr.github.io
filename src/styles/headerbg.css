@@ -14,15 +14,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  position: relative;
-  height: 100vh;
-  background-color: var(--clr-night-blue);
-  font-family: var(--ff-sans);
-  /* font-size: var(--fs-md); */
-  color: var(--clr-pale-blue);
-  user-select: none;
-}
 .quote {
   display: flex;
   flex-direction: column;
