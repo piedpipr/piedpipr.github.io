@@ -2,16 +2,20 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { GetPostsOrdByDate } from "../../hooks/GetPostsOrdByDate";
-import "../../styles/postcard.css";
-import Dump from "../Dump";
 
 const IndexWrapper = styled.main``;
 const PostWrapper = styled.div``;
+const SectionHeader = styled.h1`
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+`;
 const PostWrapperMain = styled.main`
   min-height: 100vh;
   width: 100%;
-  background-color: #e7f4fa;
-  border: 1em solid #fff;
+  background-color: #f7f9fc;
+  border: 0%;
 `;
 const CardContainer = styled.div`
   display: flex;
@@ -54,6 +58,9 @@ const PostLink = styled.a`
   color: #000;
   border-radius: 5px;
   overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(128, 236, 169, 0.05),
+    0 8px 8px rgba(128, 236, 169, 0.06);
 `;
 const CardImgBgPosition = styled.div`
   position: relative;
@@ -85,8 +92,7 @@ export default function Posts() {
   return (
     <div className="blogSection" id="recentPosts">
       <div>
-        <h1>Recent Posts</h1>
-        <Dump test={posts} />
+        <SectionHeader>Recent Posts</SectionHeader>
         <PostWrapperMain>
           <CardContainer>
             {posts.map(({ id, excerpt, frontmatter, fields }) => (
@@ -112,7 +118,7 @@ export default function Posts() {
           </CardContainer>
         </PostWrapperMain>
 
-        <IndexWrapper>
+        {/* <IndexWrapper>
           {posts.map(({ id, excerpt, frontmatter, fields }) => (
             <PostWrapper key={id}>
               <Link to={"blog" + fields.slug}>
@@ -122,7 +128,7 @@ export default function Posts() {
               </Link>
             </PostWrapper>
           ))}
-        </IndexWrapper>
+        </IndexWrapper> */}
       </div>
     </div>
   );
