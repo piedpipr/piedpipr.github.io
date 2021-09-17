@@ -14,13 +14,13 @@ export default function index({ data }) {
   return (
     <div>
       <LayoutIndex>
-        <section>
+        {/* <section>
           <div>
             <h1>Hello World</h1>
             <StyledH1>{title}</StyledH1>
             <p>{description}</p>
           </div>
-          {/* <div>
+          <div>
             {data.allMdx.nodes.map(({ excerpt, frontmatter }) => (
               <>
                 <h1>{frontmatter.title}</h1>
@@ -28,8 +28,8 @@ export default function index({ data }) {
                 <p>{excerpt}</p>
               </>
             ))}
-          </div> */}
-        </section>
+          </div>
+        </section> */}
       </LayoutIndex>
     </div>
   );
