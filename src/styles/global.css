@@ -37,7 +37,7 @@ h2 {
   scroll-snap-align: start;
 }
 .projectsSection {
-  height: 100vh;
+  min-height: 100vh;
   background: #5454696a;
   scroll-snap-align: start;
 }
