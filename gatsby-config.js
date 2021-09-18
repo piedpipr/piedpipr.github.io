@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://piedpipr.github.io",
+    siteUrl: "https://protik.me",
     title: "Protik",
     description: "Blog and Portfolio of Protik",
   },
