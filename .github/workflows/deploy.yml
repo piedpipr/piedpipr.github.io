@@ -1,0 +1,16 @@
+name: My Gatsby Github Page Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - uses: enriikke/gatsby-gh-pages-action@v2.2.0
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: deployment
