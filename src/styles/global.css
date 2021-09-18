@@ -42,7 +42,7 @@ h2 {
   scroll-snap-align: start;
 }
 .designsSection {
-  height: 100vh;
+  height: auto;
   background: #5454696a;
   scroll-snap-align: start;
 }

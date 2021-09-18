@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="divItem" id="gallery">
           <p className="pNav">
             <Link className="linkStyle" to="#aboutMe">
-              About
+              About Me
             </Link>
           </p>
         </div>

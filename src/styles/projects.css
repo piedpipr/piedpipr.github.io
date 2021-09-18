@@ -14,19 +14,6 @@
   --tag-4-text: #a734ba;
   --purple: #7784ee;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  color: var(--text);
-}
-
-h1 {
-  font-size: 30px;
-}
 .project-flex {
   display: flex;
   flex-wrap: wrap;

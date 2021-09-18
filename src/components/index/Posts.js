@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "gatsby";
 import styled from "styled-components";
 import { GetPostsOrdByDate } from "../../hooks/GetPostsOrdByDate";
 
 const IndexWrapper = styled.main``;
 const PostWrapper = styled.div``;
-const SectionHeader = styled.h1`
+const SectionHeader = styled.div`
+  background-color: #5454696a;
+  height: 10vh;
+  margin-bottom: 0vh;
+`;
+const SectionHeaderH1 = styled.h1`
   color: white;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -23,7 +27,7 @@ const CardContainer = styled.div`
   flex-flow: wrap;
   max-width: 76.5em;
   margin: 0 auto;
-  padding: 4em 5%;
+  padding: 1em;
 
   > * {
     padding: 0.5em;
@@ -92,7 +96,9 @@ export default function Posts() {
   return (
     <div className="blogSection" id="recentPosts">
       <div>
-        <SectionHeader>Recent Posts</SectionHeader>
+        <SectionHeader>
+          <SectionHeaderH1>Recent Posts</SectionHeaderH1>
+        </SectionHeader>
         <PostWrapperMain>
           <CardContainer>
             {posts.map(({ id, excerpt, frontmatter, fields }) => (

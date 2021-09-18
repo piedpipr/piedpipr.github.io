@@ -1,7 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import "../../styles/projects.css";
-const SectionHeader = styled.h1`
+const SectionHeader = styled.div`
+  background-color: #5454696a;
+  height: 10vh;
+  margin-bottom: 2vh;
+`;
+const SectionHeaderH1 = styled.h1`
   color: white;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -10,12 +15,14 @@ const SectionHeader = styled.h1`
 export default function Projects() {
   return (
     <div className="projectsSection" id="myProjects">
-      <SectionHeader>My Projects</SectionHeader>
+      <SectionHeader>
+        <SectionHeaderH1>My Projects</SectionHeaderH1>
+      </SectionHeader>
       <div className="project-flex">
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--App">App</span>
                   <button className="task__options">
@@ -44,7 +51,7 @@ export default function Projects() {
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--Web">Web</span>
                   <button className="task__options">
@@ -73,7 +80,7 @@ export default function Projects() {
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--Softwares">
                     Softwares
@@ -104,7 +111,7 @@ export default function Projects() {
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--Softwares">
                     Softwares
@@ -135,7 +142,7 @@ export default function Projects() {
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--Softwares">
                     Softwares
@@ -166,7 +173,7 @@ export default function Projects() {
         <main className="project">
           <div className="project-tasks">
             <div className="project-column">
-              <div className="task" draggable="true">
+              <div className="task">
                 <div className="task__tags">
                   <span className="task__tag task__tag--Softwares">
                     Softwares
