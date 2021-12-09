@@ -39,7 +39,13 @@ const CardContainer = styled.div`
       flex-basis: 33.3333333333%;
       max-width: 33.3333333333%;
     }
-  }
+  } //PC and Tab Screen
+  @media (max-width: 30em) {
+    > * {
+      flex-basis: 10.3333333333%;
+      max-width: 50%;
+    }
+  } //Phone Screen
 `;
 const Post = styled.div`
   align-self: flex-start;
@@ -50,7 +56,7 @@ const CardMdBackGroundImg = styled.div`
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("https://source.unsplash.com/56wK2w3sMOo/800x450");
+  /* background-image: url("https://source.unsplash.com/56wK2w3sMOo/800x450"); */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
