@@ -42,7 +42,7 @@ const CardContainer = styled.div`
   } //PC and Tab Screen
   @media (max-width: 30em) {
     > * {
-      flex-basis: 10.3333333333%;
+      flex-basis: 50%;
       max-width: 50%;
     }
   } //Phone Screen
@@ -57,7 +57,7 @@ const CardMdBackGroundImg = styled.div`
   height: 100%;
   width: 100%;
   /* background-image: url("https://source.unsplash.com/56wK2w3sMOo/800x450"); */
-  background-position: 50%;
+  background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -73,9 +73,25 @@ const PostLink = styled.a`
     0 8px 8px rgba(128, 236, 169, 0.06);
 `;
 const CardImgBgPosition = styled.div`
-  position: relative;
-  height: 15em;
-  background-color: #a9a9a9;
+  > * {
+    position: relative;
+    height: 15em;
+    background-color: #a9a9a9;
+  }
+  @media (min-width: 54em) {
+    > * {
+      position: relative;
+      height: 15em;
+      background-color: #a9a9a9;
+    }
+  } //PC and Tab Screen
+  @media (max-width: 30em) {
+    > * {
+      position: relative;
+      height: 5em;
+      background-color: #a9a9a9;
+    }
+  } //Phone Screen
 `;
 const CardTextContainer = styled.div`
   padding: 2em;
