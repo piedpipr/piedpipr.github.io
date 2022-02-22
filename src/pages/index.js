@@ -2,9 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
 import LayoutIndex from "../components/LayoutIndex";
-
 import { UseSiteMetadata } from "../hooks/UseSiteMetadata";
-
 const StyledH1 = styled.h1`
   color: rebeccapurple;
 `;

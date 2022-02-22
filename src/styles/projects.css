@@ -17,15 +17,18 @@
 .project-flex {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 1vw;
 }
+
 .project {
-  width: calc(30%);
+  width: 30vw;
   max-width: 100%;
-  margin: auto;
+  padding-left: 1vw;
 }
 
 .project-tasks {
   width: 100%;
+  margin-left: 3vw;
 }
 .task {
   cursor: move;
@@ -108,7 +111,7 @@
 }
 @media only screen and (max-width: 1000px) {
   .project {
-    width: calc(46%);
+    width: 46vw;
     margin: auto;
   }
   .project-tasks {
@@ -117,7 +120,7 @@
 }
 @media only screen and (max-width: 600px) {
   .project {
-    width: calc(90%);
+    width: 90vw;
     margin: auto;
   }
 
@@ -130,4 +133,22 @@
   h1 {
     font-size: 25px;
   }
+}
+.modal-dialog {
+  margin-left: 0.5% !important;
+  margin-top: 0.5% !important;
+  height: 99% !important;
+  min-height: 99% !important;
+  max-height: 99% !important;
+  width: 99% !important;
+  max-width: 99% !important;
+  min-width: 90% !important;
+}
+.modal-content {
+  height: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
 }

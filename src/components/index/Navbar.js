@@ -8,28 +8,35 @@ const Navbar = () => {
   useEffect(() => {});
   return (
     <div style={{ zIndex: "1000" }}>
+      {/* Navbar Start */}
       <div className="myLogo">
         <div className="logoText">
-          <h1 style={{ fontWeight: 600 }}>
+          <h1 style={{ fontWeight: 600, fontSize: "2rem" }}>
             protik
             <a style={{ fontWeight: 100 }}>
               chanda<span className="blink">_</span>
             </a>
           </h1>
         </div>
+        {/* Social Links */}
         <div className="navbarContact">
-          <Link className="linkStyle" to="#recentPosts">
+          <Link
+            className="linkStyle"
+            to="https://www.linkedin.com/in/protikchanda"
+          >
             <FaLinkedin style={{ height: "2em", width: "2em" }} />
           </Link>
-          <Link className="linkStyle" to="#recentPosts">
+          {/* <Link className="linkStyle" to="#recentPosts">
             <FaTwitterSquare style={{ height: "2em", width: "2em" }} />
-          </Link>
-          <Link className="linkStyle" to="#recentPosts">
+          </Link> */}
+          <Link className="linkStyle" to="https://github.com/piedpipr">
             <FaGithubSquare style={{ height: "2em", width: "2em" }} />
           </Link>
         </div>
       </div>
+      {/* Navbar End */}
 
+      {/* Menu Start */}
       <section className="stageNav">
         <div id="home" className="divItem">
           <p id="homep" className="pNav">
@@ -60,6 +67,7 @@ const Navbar = () => {
           </p>
         </div>
       </section>
+      {/* Menu End */}
     </div>
   );
 };
