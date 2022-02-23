@@ -107,16 +107,19 @@ export default ({ data, pageContext }) => {
           )}
         </div>
       </div>
-      <Disqus
-        config={{
-          /* Replace PAGE_URL with your post's canonical URL variable */
-          url: "protik.me" + slug,
-          /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
-          identifier: id,
-          /* Replace PAGE_TITLE with the title of the page */
-          title: frontmatter.title,
-        }}
-      />
+      <div className="d-flex justify-content-center">
+        <Disqus
+          config={{
+            /* Replace PAGE_URL with your post's canonical URL variable */
+            url: `https://protik.me/blog/${slug}`,
+            /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+            identifier: id,
+            /* Replace PAGE_TITLE with the title of the page */
+            title: frontmatter.title,
+          }}
+          style={{ width: "80vw" }}
+        />
+      </div>
     </section>
   );
 };
