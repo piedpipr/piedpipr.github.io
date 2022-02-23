@@ -114,7 +114,7 @@ export default function Projects() {
       key: "p6",
       name: "Kindle Ebook Thumbnail Fix",
       description: "This is a project",
-      type: "Web",
+      type: "Software",
       tech: "python, qt4",
       git: "https://github.com/piedpipr/kindle-thumbnail-fix",
       deployment: "",
