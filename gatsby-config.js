@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `protik-me`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
