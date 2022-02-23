@@ -15,7 +15,7 @@ export default ({ data, pageContext }) => {
     <section>
       {/* Navbar Start */}
       <div className="myLogo">
-        <div className="logoText">
+        <div className="logoText" onClick={(event) => (window.location = "/")}>
           <h1 style={{ fontWeight: 600, fontSize: "2rem" }}>
             protik
             <a style={{ fontWeight: 100 }}>
