@@ -6,6 +6,7 @@ import Dump from "../components/Dump";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaGithubSquare } from "@react-icons/all-files/fa/FaGithubSquare";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import { Layout } from '../components/Layout';
 
 export default ({ data, pageContext }) => {
