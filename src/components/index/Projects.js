@@ -19,6 +19,7 @@ const SectionHeaderH1 = styled.h1`
 
 export default function Projects() {
   const [state, setState] = useState({
+    p0: false,
     p1: false,
     p2: false,
     p3: false,
@@ -34,6 +35,7 @@ export default function Projects() {
 
   const Hide = (e) => {
     let newState = {
+      p0: false,
       p1: false,
       p2: false,
       p3: false,
@@ -61,6 +63,16 @@ export default function Projects() {
   // });
   const projects = [
     {
+      key: "p0",
+      name: "SimplyBlog-react-springboot-fullstack-blog",
+      description: "This is a personal project",
+      type: "Web",
+      tech: "spribgboot, reactjs, mysql, java, typescript",
+      git: "https://github.com/piedpipr/SimplyBlog-react-springboot-blog",
+      deployment: "https://simplyblog.vercel.app",
+      md: "https://raw.githubusercontent.com/piedpipr/SimplyBlog-react-springboot-blog/main/README.md",
+    },
+    {
       key: "p1",
       name: "GradMate - Android App",
       description: "This is a project",
@@ -76,9 +88,9 @@ export default function Projects() {
       description: "This is a project",
       type: "Software",
       tech: "python, selenium, chromedriver",
-      git: "https://github.com/piedpipr/cg-trade-automation",
+      git: "https://github.com/piedpipr/selenium-chromedriver-automation-autotrader",
       deployment: "",
-      md: "https://raw.githubusercontent.com/piedpipr/cg-trade-automation/main/README.md",
+      md: "https://raw.githubusercontent.com/piedpipr/selenium-chromedriver-automation-autotrader/main/README.md",
     },
     {
       key: "p3",
@@ -103,7 +115,7 @@ export default function Projects() {
     {
       key: "p5",
       name: "Smart Leave Management System",
-      description: "This is a project",
+      description: "Internship Project",
       type: "Web",
       tech: "nodejs, mongodb, expressjs, hanlebars, passporjs",
       git: "https://github.com/piedpipr/bcc-smart-leave-system/",

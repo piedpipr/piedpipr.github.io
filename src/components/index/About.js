@@ -43,7 +43,16 @@ export default function About() {
       <h5
         style={{ fontSize: 15, fontWeight: 500, color: "black", padding: "7%" }}
       >
-        I am a learner first, I fell in love with web technology and books in my
+        Hello there, I am Protik Chanda. I am an aspiring software engineer,
+        currently looking forward to kickstart my carrer in the budding tech
+        industry. I have completed my degree of Bachelor of Technology (B.Tech)
+        from National Institute of Technology Durgapur, WB, India. Despite my
+        academic background, I am well aware of the facts and decided to build
+        my career in Tech as a software engineer. I love learning new things
+        everyday. I like to develop softwares for fun and situational demands. I
+        also like to play instruments and listen to music, read books or
+        occasionally write and photograph.
+        {/* I am a learner first, I fell in love with web technology and books in my
         early years. Currently I am a fresh B.Tech graduate from National
         Institute of Technology Durgapur, India. I love developing websites and
         their UX/UI and occationally do some designs in Photoshop and
@@ -53,7 +62,7 @@ export default function About() {
         sometimes.{"\n"}
         In personal life if you call it destination or something like landmark
         or goal, for me it would be travelling the world and then living in a
-        peaceful countryside.
+        peaceful countryside. */}
       </h5>
     </div>
   );
