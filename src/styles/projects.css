@@ -31,7 +31,7 @@
   margin-left: 3vw;
 }
 .task {
-  cursor: move;
+  cursor: pointer;
   background-color: var(--white);
   padding: 1rem;
   border-radius: 8px;

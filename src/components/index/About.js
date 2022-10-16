@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import mypic from "../../images/designs/portfolio-08-large.jpg";
+import mypic from "../../images/mypicmain.jpg";
 const SectionHeader = styled.div`
   background-color: #24243c;
   height: 10vh;
@@ -32,7 +32,8 @@ export default function About() {
         style={{
           color: "black",
           display: "block",
-          marginTop: "3vh",
+          padding: "1%",
+          marginTop: "4vh",
           marginLeft: "auto",
           marginRight: "auto",
           textAlign: "center",
@@ -41,17 +42,25 @@ export default function About() {
         Protik Chanda
       </h2>
       <h5
-        style={{ fontSize: 15, fontWeight: 500, color: "black", padding: "7%" }}
+        style={{
+          fontFamily: "",
+          fontSize: 16,
+          fontWeight: 385,
+          color: "GrayText",
+          padding: "5%",
+        }}
       >
-        Hello there, I am Protik Chanda. I am an aspiring software engineer,
-        currently looking forward to kickstart my carrer in the budding tech
-        industry. I have completed my degree of Bachelor of Technology (B.Tech)
-        from National Institute of Technology Durgapur, WB, India. Despite my
-        academic background, I am well aware of the facts and decided to build
-        my career in Tech as a software engineer. I love learning new things
-        everyday. I like to develop softwares for fun and situational demands. I
-        also like to play instruments and listen to music, read books or
-        occasionally write and photograph.
+        Hello there, I am Protik Chanda, a tech enthusiast with a keen interest
+        in computers, softwares, communication, well-being, education and
+        innovation of any type overall. Currently I am looking forward to do
+        higher studies in Computer Science. I have completed my degree of
+        Bachelor of Technology (B.Tech) from National Institute of Technology
+        Durgapur, WB, India. I have decided to build my career in Tech. I love
+        learning and exploring new things everyday. I develop softwares for fun
+        and situational demands, and did some occasional designs too. In spare
+        time I enjoy playing guitar, listening to music, binge watch, read books
+        or occasionally write and photograph. Travelling and exploration is
+        something I am looking forward in upcoming days.
         {/* I am a learner first, I fell in love with web technology and books in my
         early years. Currently I am a fresh B.Tech graduate from National
         Institute of Technology Durgapur, India. I love developing websites and

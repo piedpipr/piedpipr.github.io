@@ -104,7 +104,7 @@ const ImageEach = styled.img`
   }
 `;
 const SectionHeader = styled.div`
-  background-color: #5454696a;
+  background-color: #2828396a;
   height: 10vh;
   margin-bottom: 2vh;
 `;

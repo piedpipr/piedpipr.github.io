@@ -51,17 +51,22 @@ h2 {
 }
 .designsSection {
   height: auto;
-  background: #5454696a;
+  background: rgba(255, 255, 255, 0.277);
+  scroll-snap-align: start;
+}
+.youtubeSection {
+  height: 100vh;
+  background: rgba(66, 180, 152, 0.738);
   scroll-snap-align: start;
 }
 .aboutSection {
   height: 100vh;
   background: #5454696a;
   scroll-snap-align: start;
-  background-color: white;
+  background-color: rgb(241, 252, 255);
 }
 .footerSection {
-  height: 70vh;
+  height: 5vh;
   scroll-snap-align: end;
 }
 

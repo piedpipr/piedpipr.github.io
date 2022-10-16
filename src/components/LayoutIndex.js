@@ -7,6 +7,7 @@ import Projects from "./index/Projects";
 import Designs from "./index/Designs";
 import About from "./index/About";
 import Footer from "./index/Footer";
+import Youtube from "./index/Youtube";
 import "../styles/global.css";
 
 export default function LayoutIndex(props) {
@@ -36,6 +37,7 @@ export default function LayoutIndex(props) {
       <Posts />
       <Projects />
       <Designs />
+      <Youtube />
       <About />
       <Footer />
       <a id="buttonUp" href="#">

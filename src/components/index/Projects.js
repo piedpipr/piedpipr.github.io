@@ -5,6 +5,15 @@ import { Button } from "react-bootstrap";
 import { FaEllipsisH } from "@react-icons/all-files/fa/FaEllipsisH";
 import { FaCloudsmith } from "@react-icons/all-files/fa/FaCloudsmith";
 import "../../styles/projects.css";
+
+import kindleImage from "../../images/project-images/kindle-min.png";
+import simplyblogImage from "../../images/project-images/springreact-min.png";
+import recursionImage from "../../images/project-images/recursion-min.png";
+import autotraderImage from "../../images/project-images/autotrader-min.jpg";
+import bccImage from "../../images/project-images/bcc-min.png";
+import gatsbyImage from "../../images/project-images/gatsby-min.png";
+import gradmateImage from "../../images/project-images/gradmate-min.png";
+
 const SectionHeader = styled.div`
   background-color: #5454696a;
   height: 10vh;
@@ -66,6 +75,7 @@ export default function Projects() {
       key: "p0",
       name: "SimplyBlog-react-springboot-fullstack-blog",
       description: "This is a personal project",
+      image: simplyblogImage,
       type: "Web",
       tech: "spribgboot, reactjs, mysql, java, typescript",
       git: "https://github.com/piedpipr/SimplyBlog-react-springboot-blog",
@@ -76,6 +86,7 @@ export default function Projects() {
       key: "p1",
       name: "GradMate - Android App",
       description: "This is a project",
+      image: gradmateImage,
       type: "App",
       tech: "react-native, android, firebase, javascript",
       git: "https://github.com/piedpipr/gradmate-app",
@@ -86,6 +97,7 @@ export default function Projects() {
       key: "p2",
       name: "Selenium Chromedriver Automation: Autotrader",
       description: "This is a project",
+      image: autotraderImage,
       type: "Software",
       tech: "python, selenium, chromedriver",
       git: "https://github.com/piedpipr/selenium-chromedriver-automation-autotrader",
@@ -96,6 +108,7 @@ export default function Projects() {
       key: "p3",
       name: "Gatsby React Portfolio Site",
       description: "This is a project",
+      image: gatsbyImage,
       type: "Web",
       tech: "gatsbyjs, reactjs, javascript",
       git: "https://github.com/piedpipr/piedpipr.github.io",
@@ -106,6 +119,7 @@ export default function Projects() {
       key: "p4",
       name: "Django Site UI",
       description: "This is a project",
+      image: recursionImage,
       type: "Web",
       tech: "django, python",
       git: "https://github.com/piedpipr/RECursionNITD-website",
@@ -116,6 +130,7 @@ export default function Projects() {
       key: "p5",
       name: "Smart Leave Management System",
       description: "Internship Project",
+      image: bccImage,
       type: "Web",
       tech: "nodejs, mongodb, expressjs, hanlebars, passporjs",
       git: "https://github.com/piedpipr/bcc-smart-leave-system/",
@@ -126,6 +141,7 @@ export default function Projects() {
       key: "p6",
       name: "Kindle Ebook Thumbnail Fix",
       description: "This is a project",
+      image: kindleImage,
       type: "Software",
       tech: "python, qt4",
       git: "https://github.com/piedpipr/kindle-thumbnail-fix",
@@ -146,12 +162,36 @@ export default function Projects() {
             </span>
           </Modal.Header>
           <Modal.Body>
-            <iframe
-              title="projects"
-              src={`https://protik.me/zero-md.html?src=${md}`}
-              width="100%"
-              height="100%"
-            />
+            {md ? (
+              <iframe
+                title="projects"
+                src={`https://protik.me/zero-md.html?src=${md}`}
+                width="100%"
+                height="100%"
+              />
+            ) : (
+              <div>
+                <h1 style={{ color: "black" }}>
+                  Please go the the live demo to see the deployed project at
+                  <a href={project.deployment}> {project.deployment} </a>
+                  <br />
+                  <br />
+                  <img
+                    src={project.image}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      marginBottom: 4,
+                      objectFit: "cover",
+                      borderRadius: 5,
+                    }}
+                  />
+                  <br />
+                  Or go to github repo
+                  <a href={project.deployment}> {project.git} </a>
+                </h1>
+              </div>
+            )}
           </Modal.Body>
           <Modal.Footer>
             <Button
@@ -176,6 +216,16 @@ export default function Projects() {
           <div className="project-tasks">
             <div className="project-column">
               <div className="task">
+                <img
+                  src={project.image}
+                  style={{
+                    width: "100%",
+                    height: 100,
+                    marginBottom: 4,
+                    objectFit: "fill",
+                    borderRadius: 5,
+                  }}
+                />
                 <div className="task__tags">
                   {project.type == "App" ? (
                     <span className="task__tag task__tag--App">
