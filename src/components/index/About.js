@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import mypic from "../../images/mypicmain.jpg";
+import resume_edu from "../../resumes/PROTIK_CHANDA_RESUME.pdf";
+import resume_job from "../../resumes/Protik Chanda_SWE_Resume.pdf";
 const SectionHeader = styled.div`
   background-color: #24243c;
   height: 10vh;
@@ -41,6 +43,19 @@ export default function About() {
       >
         Protik Chanda
       </h2>
+      <a href={resume_edu}>
+        <p
+          style={{
+            color: "black",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          View Resume
+        </p>
+      </a>
       <h5
         style={{
           fontFamily: "",
