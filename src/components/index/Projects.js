@@ -14,6 +14,8 @@ import bccImage from "../../images/project-images/bcc-min.png";
 import gatsbyImage from "../../images/project-images/gatsby-min.png";
 import gradmateImage from "../../images/project-images/gradmate-min.png";
 
+import bccDoc from "../../docs/17BT8029_Protik Chanda_Internship Report.pdf";
+
 const SectionHeader = styled.div`
   background-color: #5454696a;
   height: 10vh;
@@ -125,6 +127,7 @@ export default function Projects() {
       git: "https://github.com/piedpipr/RECursionNITD-website",
       deployment: "https://recursionnitd.in/",
       md: "",
+      altext: "Please go the the live demo to see the deployed project at",
     },
     {
       key: "p5",
@@ -134,8 +137,10 @@ export default function Projects() {
       type: "Web",
       tech: "nodejs, mongodb, expressjs, hanlebars, passporjs",
       git: "https://github.com/piedpipr/bcc-smart-leave-system/",
-      deployment: "",
-      md: "https://raw.githubusercontent.com/piedpipr/bcc-smart-leave-system/master/README.md",
+      deployment: bccDoc,
+      md: "",
+      altext:
+        "Please click the link for the detailed report of the project. Since the project is not public I am unable to show a demo",
     },
     {
       key: "p6",
@@ -172,7 +177,7 @@ export default function Projects() {
             ) : (
               <div>
                 <h1 style={{ color: "black" }}>
-                  Please go the the live demo to see the deployed project at
+                  {project.altext}
                   <a href={project.deployment}> {project.deployment} </a>
                   <br />
                   <br />
