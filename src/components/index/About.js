@@ -68,14 +68,18 @@ export default function About() {
         Hello there, I am Protik Chanda, a tech enthusiast with a keen interest
         in computers, softwares, communication, well-being, education and
         innovation of any type overall. Currently I am looking forward to do
-        higher studies in Computer Science. I have completed my degree of
-        Bachelor of Technology (B.Tech) from National Institute of Technology
-        Durgapur, WB, India. I have decided to build my career in Tech. I love
-        learning and exploring new things everyday. I develop softwares for fun
-        and situational demands, and did some occasional designs too. In spare
-        time I enjoy playing guitar, listening to music, binge watch, read books
-        or occasionally write and photograph. Travelling and exploration is
-        something I am looking forward in upcoming days.
+        higher studies in Computer Science and work in Health, Fitness,
+        Well-being, Learning and other HCI related technologies. I have
+        completed my degree of Bachelor of Technology (B.Tech) from National
+        Institute of Technology Durgapur, WB, India. I have decided to build my
+        career in R&D and Tech. I love learning and exploring new things
+        everyday. I develop softwares for fun and situational demands, and did
+        some occasional designs too. In spare time I enjoy practicing
+        guitar(can't say a player yet!), listening to music, binge watching,
+        reading books or occasionally writing and taking photographs. Despite
+        everything, life is never easy, so I am always trying to improve myself
+        physically and mentally. Travelling and exploration is something I am
+        looking forward in upcoming days.
         {/* I am a learner first, I fell in love with web technology and books in my
         early years. Currently I am a fresh B.Tech graduate from National
         Institute of Technology Durgapur, India. I love developing websites and
@@ -88,6 +92,48 @@ export default function About() {
         or goal, for me it would be travelling the world and then living in a
         peaceful countryside. */}
       </h5>
+      <h2
+        style={{
+          color: "black",
+          display: "block",
+          padding: "1%",
+          marginTop: "4vh",
+          marginLeft: "auto",
+          marginRight: "auto",
+          textAlign: "center",
+        }}
+      >
+        Publication
+      </h2>
+      <h5
+        style={{
+          fontFamily: "",
+          fontSize: 16,
+          fontWeight: 385,
+          color: "GrayText",
+          padding: "5%",
+        }}
+      >
+        1.{" "}
+        <i>
+          Dasgupta, D., Singh, G., Majumdar, S., Chanda, P. Challenges in
+          developing strategies for the valorization of lignin—a major pollutant
+          of the paper mill industry. Environmental Science and Pollution
+          Research - Springer, Accepted on: 1 November, 2022, Published on: Yet
+          to be published.
+        </i>
+      </h5>
+      <h2
+        style={{
+          color: "black",
+          display: "block",
+          padding: "1%",
+          marginTop: "4vh",
+          marginLeft: "auto",
+          marginRight: "auto",
+          textAlign: "center",
+        }}
+      ></h2>
     </div>
   );
 }

@@ -62,7 +62,14 @@ const Navbar = () => {
         <div className="divItem" id="gallery">
           <p className="pNav">
             <Link className="linkStyle" to="#aboutMe">
-              About Me
+              Resume
+            </Link>
+          </p>
+        </div>
+        <div className="divItem" id="gallery">
+          <p className="pNav">
+            <Link className="linkStyle" to="#aboutMe">
+              Publication
             </Link>
           </p>
         </div>
