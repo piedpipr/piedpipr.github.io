@@ -69,7 +69,8 @@ export default function About() {
         in computers, softwares, communication, well-being, education and
         innovation of any type overall. Currently I am looking forward to do
         higher studies in Computer Science and work in Human Centric (Health,
-        Fitness, Behaviours, Cognition or Social) and other HCI topics. I have
+        Fitness, Behaviours, Cognition or Social) Computing and other HCI
+        technologies with application of Software Engineering and A.I. I have
         completed my degree of Bachelor of Technology (B.Tech) from National
         Institute of Technology Durgapur, WB, India. I have decided to build my
         career in R&D and Tech. I love learning and exploring new things
