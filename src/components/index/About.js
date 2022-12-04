@@ -68,8 +68,8 @@ export default function About() {
         Hello there, I am Protik Chanda, a tech enthusiast with a keen interest
         in computers, softwares, communication, well-being, education and
         innovation of any type overall. Currently I am looking forward to do
-        higher studies in Computer Science and work in Health, Fitness,
-        Well-being, Learning and other HCI related technologies. I have
+        higher studies in Computer Science and work in Human Centric (Health,
+        Fitness, Behaviours, Cognition or Social) and other HCI topics. I have
         completed my degree of Bachelor of Technology (B.Tech) from National
         Institute of Technology Durgapur, WB, India. I have decided to build my
         career in R&D and Tech. I love learning and exploring new things
