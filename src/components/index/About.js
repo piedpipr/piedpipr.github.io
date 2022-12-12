@@ -93,48 +93,48 @@ export default function About() {
         or goal, for me it would be travelling the world and then living in a
         peaceful countryside. */}
       </h5>
-      <h2
-        style={{
-          color: "black",
-          display: "block",
-          padding: "1%",
-          marginTop: "4vh",
-          marginLeft: "auto",
-          marginRight: "auto",
-          textAlign: "center",
-        }}
-      >
-        Publication
-      </h2>
-      <h5
-        style={{
-          fontFamily: "",
-          fontSize: 16,
-          fontWeight: 385,
-          color: "GrayText",
-          padding: "5%",
-        }}
-      >
-        1.{" "}
-        <i>
-          Dasgupta, D., Singh, G., Majumdar, S., Chanda, P. Challenges in
-          developing strategies for the valorization of lignin—a major pollutant
-          of the paper mill industry. Environmental Science and Pollution
-          Research - Springer, Accepted on: 1 November, 2022, Published on: Yet
-          to be published.
-        </i>
-      </h5>
-      <h2
-        style={{
-          color: "black",
-          display: "block",
-          padding: "1%",
-          marginTop: "4vh",
-          marginLeft: "auto",
-          marginRight: "auto",
-          textAlign: "center",
-        }}
-      ></h2>
+      <div id="myPublication">
+        <h2
+          style={{
+            color: "black",
+            display: "block",
+            padding: "1%",
+            marginTop: "4vh",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          Publication
+        </h2>
+        <h5
+          style={{
+            fontFamily: "",
+            fontSize: 16,
+            fontWeight: 385,
+            color: "GrayText",
+            padding: "5%",
+          }}
+        >
+          1. Mandal, D.D., Singh, G., Majumdar, S., <b>Chanda, P.</b> Challenges
+          in developing strategies for the valorization of lignin—a major
+          pollutant of the paper mill industry. Environ Sci Pollut Res (2022).
+          <a href="https://doi.org/10.1007/s11356-022-24022-4">
+            https://doi.org/10.1007/s11356-022-24022-4
+          </a>
+        </h5>
+        <h2
+          style={{
+            color: "black",
+            display: "block",
+            padding: "1%",
+            marginTop: "4vh",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        ></h2>
+      </div>
     </div>
   );
 }

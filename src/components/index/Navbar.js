@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
         <div className="divItem" id="gallery">
           <p className="pNav">
-            <Link className="linkStyle" to="#aboutMe">
+            <Link className="linkStyle" to="#myPublication">
               Publication
             </Link>
           </p>
