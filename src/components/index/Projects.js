@@ -13,6 +13,7 @@ import autotraderImage from "../../images/project-images/autotrader-min.jpg";
 import bccImage from "../../images/project-images/bcc-min.png";
 import gatsbyImage from "../../images/project-images/gatsby-min.png";
 import gradmateImage from "../../images/project-images/gradmate-min.png";
+import bornomalaImage from "../../images/project-images/bornomala-min.jpg";
 
 import bccDoc from "../../docs/17BT8029_Protik Chanda_Internship Report.pdf";
 
@@ -37,6 +38,7 @@ export default function Projects() {
     p4: false,
     p5: false,
     p6: false,
+    p7: false,
     status: false,
   });
   const changeHandler = (e) => {
@@ -53,6 +55,7 @@ export default function Projects() {
       p4: false,
       p5: false,
       p6: false,
+      p7: false,
       status: true,
     };
     setState(newState);
@@ -152,6 +155,18 @@ export default function Projects() {
       git: "https://github.com/piedpipr/kindle-thumbnail-fix",
       deployment: "",
       md: "https://raw.githubusercontent.com/piedpipr/kindle-thumbnail-fix/main/README.md",
+    },
+    {
+      key: "p7",
+      name: "BornomalaAR - Augmented Reality App",
+      description:
+        "Fun Unity ARCore augmented reality app for kids for learning Bengali alphabets",
+      image: bornomalaImage,
+      type: "App",
+      tech: "unity, arcore, c#",
+      git: "https://github.com/piedpipr/BornomalaAR",
+      deployment: "",
+      md: "https://raw.githubusercontent.com/piedpipr/BornomalaAR/main/README.md",
     },
   ];
   const items = projects.map((project) => {
