@@ -70,19 +70,19 @@ export default function About() {
         innovation of any type overall. I have completed my degree of Bachelor
         of Technology (B.Tech) from National Institute of Technology Durgapur,
         WB, India. I have decided to build my career in R&D and Tech, possibly
-        in Software Industry. Currently I am looking forward to do higher
-        studies in Computer Science and work in HCI and Human Centric (Health,
-        Fitness, Behaviours, Cognition or Social) Computing with possible
-        application of Software Engineering and ML, meanwhile I am also seeking
-        immediate opportunity to join a company and gather hands-on industry
-        experiences. I love learning and exploring new things everyday. I
-        develop softwares for fun and situational demands, and did some
-        occasional designs too. In spare time I enjoy practicing guitar(can't
-        say a player yet!), listening to music, binge watching, reading books or
-        occasionally writing and taking photographs. Despite everything, life is
-        never easy, so I am always trying to improve myself physically and
-        mentally. Travelling and exploration is something I am looking forward
-        in upcoming days.
+        in Software Industry. Currently I am looking for research opportunities
+        in Computer Science and work in HCI and Human Centric (Health, Fitness,
+        Behaviours, Cognition or Social) Computing with possible application of
+        Software Engineering and ML, meanwhile I am also seeking immediate
+        opportunity to join a company and gather hands-on industry experiences
+        to advance mhy career. I love learning and exploring new things
+        everyday. I develop softwares for fun and situational demands, and did
+        some occasional designs too. In spare time I enjoy practicing
+        guitar(can't say a player yet!), listening to music, binge watching,
+        reading books or occasionally writing and taking photographs. Despite
+        everything, life is never easy, so I am always trying to improve myself
+        physically and mentally. Travelling and exploration is something I am
+        looking forward in upcoming days.
         {/* I am a learner first, I fell in love with web technology and books in my
         early years. Currently I am a fresh B.Tech graduate from National
         Institute of Technology Durgapur, India. I love developing websites and
