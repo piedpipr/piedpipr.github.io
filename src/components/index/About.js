@@ -70,7 +70,8 @@ export default function About() {
         innovation of any type overall. I have completed my degree of Bachelor
         of Technology (B.Tech) from National Institute of Technology Durgapur,
         WB, India. I have decided to build my career in R&D and Tech, possibly
-        in Software Industry.
+        in Software Industry. On the other hand HCI and eHealth realted studies
+        are two of my academic interests for possible research.
         {/* Currently I am looking for research opportunities
         in Computer Science and work in HCI and Human Centric (Health, Fitness,
         Behaviours, Cognition or Social) Computing with possible application of
