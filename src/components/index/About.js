@@ -71,12 +71,12 @@ export default function About() {
         of Technology (B.Tech) from National Institute of Technology Durgapur,
         WB, India. I have decided to build my career in R&D and Tech, possibly
         in Software Industry. Currently I am looking for research opportunities
-        in Computer Science and Engineering.
+        in Computer Science and Engineering based on HCI, eHealth, Human Centric
+        (Health, Fitness, Behaviours, Cognition or Social) Computing and
+        ML/DeepLearning.
         {/*On the other hand HCI, eHealth and ML/DeepLearning realted studies
         are three of my academic interests for possible research.
-         Currently I am looking for research opportunities
-        in Computer Science and work in HCI and Human Centric (Health, Fitness,
-        Behaviours, Cognition or Social) Computing with possible application of
+         and with possible application of
         Software Engineering and ML, meanwhile I am also seeking immediate
         opportunity to join a company and gather hands-on industry experiences
         to advance mhy career.  */}
