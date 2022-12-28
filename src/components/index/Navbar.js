@@ -38,13 +38,13 @@ const Navbar = () => {
 
       {/* Menu Start */}
       <section className="stageNav">
-        <div id="home" className="divItem">
+        {/* <div id="home" className="divItem">
           <p id="homep" className="pNav">
             <Link className="linkStyle" to="#recentPosts">
               Blog
             </Link>
           </p>
-        </div>
+        </div> */}
         <div className="divItem" id="about">
           <p className="pNav">
             <Link className="linkStyle" to="#myProjects">

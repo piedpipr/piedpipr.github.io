@@ -34,7 +34,7 @@ export default function LayoutIndex(props) {
   return (
     <div style={{ marginTop: "0px", paddingTop: "0px" }}>
       <Header />
-      <Posts />
+      {/* <Posts /> */}
       <Projects />
       <Designs />
       <Youtube />
