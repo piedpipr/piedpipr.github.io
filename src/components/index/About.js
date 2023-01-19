@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import mypic from "../../images/mypicmain.jpg";
-import resume_edu from "../../resumes/PROTIK_CHANDA_RESUME.pdf";
-import resume_job from "../../resumes/Protik Chanda_SWE_Resume.pdf";
+import PROTIK_CHANDA_RESUME_SWE from "../../resumes/PROTIK_CHANDA_RESUME_SWE.pdf";
+import PROTIK_CHANDA_RESUME_BT from "../../resumes/PROTIK_CHANDA_RESUME_BT.pdf";
+import PROTIK_CHANDA_RESUME_CS from "../../resumes/PROTIK_CHANDA_RESUME_CS.pdf";
+
 const SectionHeader = styled.div`
   background-color: #24243c;
   height: 10vh;
@@ -43,7 +45,7 @@ export default function About() {
       >
         Protik Chanda
       </h2>
-      <a href={resume_edu}>
+      <a href={PROTIK_CHANDA_RESUME_BT}>
         <p
           style={{
             color: "black",
