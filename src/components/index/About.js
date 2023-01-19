@@ -70,10 +70,9 @@ export default function About() {
         innovation of any type overall. I have completed my degree of Bachelor
         of Technology (B.Tech) from National Institute of Technology Durgapur,
         WB, India. I have decided to build my career in R&D and Tech, possibly
-        in Software Industry. Currently I am looking for research opportunities
-        in Computer Science and Engineering based on HCI, eHealth, Human Centric
-        (Health, Fitness, Behaviours, Cognition or Social) Computing and
-        ML/DeepLearning.
+        in AI and Software Industry. Currently I am looking for research
+        opportunities in Bioinformatics, ML/Deep Learning, eHealth and Human
+        Centric (Health, Fitness, Behaviours, Cognition or Social) Computing .
         {/*On the other hand HCI, eHealth and ML/DeepLearning realted studies
         are three of my academic interests for possible research.
          and with possible application of
