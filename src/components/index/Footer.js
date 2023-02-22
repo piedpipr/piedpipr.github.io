@@ -8,7 +8,7 @@ export default function Footer() {
       className="footerSection mx-auto text-center mt-5"
       style={{ zIndex: 5 }}
     >
-      <p>Copyright 2022</p>
+      <p>Copyright 2023</p>
     </div>
   );
 }

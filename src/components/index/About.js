@@ -4,7 +4,7 @@ import mypic from "../../images/mypicmain.jpg";
 import PROTIK_CHANDA_RESUME_SWE from "../../resumes/PROTIK_CHANDA_RESUME_SWE.pdf";
 import PROTIK_CHANDA_RESUME_BT from "../../resumes/PROTIK_CHANDA_RESUME_BT.pdf";
 import PROTIK_CHANDA_RESUME_BT_ACADEMIC from "../../resumes/PROTIK_CHANDA_RESUME_BT_ACADEMIC.pdf";
-import PROTIK_CHANDA_RESUME_CS from "../../resumes/PROTIK_CHANDA_RESUME_CS.pdf";
+import PROTIK_CHANDA_RESUME_CS_ACADEMIC from "../../resumes/PROTIK_CHANDA_RESUME_CS.pdf";
 
 const SectionHeader = styled.div`
   background-color: #24243c;
@@ -46,7 +46,7 @@ export default function About() {
       >
         Protik Chanda
       </h2>
-      <a href={PROTIK_CHANDA_RESUME_BT_ACADEMIC}>
+      <a href={PROTIK_CHANDA_RESUME_CS_ACADEMIC}>
         <p
           style={{
             color: "black",
