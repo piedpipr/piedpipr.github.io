@@ -88,7 +88,7 @@ export default function About() {
         to music, binge watching, reading books or occasionally writing and
         taking photographs. Despite everything, life is never easy, so I am
         always trying to improve myself physically and mentally. Travelling and
-        exploration is something I am looking forward in upcoming days.
+        exploration is something I am looking forward in upcoming days. 
         {/* I am a learner first, I fell in love with web technology and books in my
         early years. Currently I am a fresh B.Tech graduate from National
         Institute of Technology Durgapur, India. I love developing websites and
