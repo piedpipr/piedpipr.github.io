@@ -5,6 +5,7 @@ import PROTIK_CHANDA_RESUME_SWE from "../../resumes/PROTIK_CHANDA_RESUME_SWE.pdf
 import PROTIK_CHANDA_RESUME_BT from "../../resumes/PROTIK_CHANDA_RESUME_BT.pdf";
 import PROTIK_CHANDA_RESUME_BT_ACADEMIC from "../../resumes/PROTIK_CHANDA_RESUME_BT_ACADEMIC.pdf";
 import PROTIK_CHANDA_RESUME_CS_ACADEMIC from "../../resumes/PROTIK_CHANDA_RESUME_CS.pdf";
+import PROTIK_CV_ACADEMIC from "../../resumes/PROTIK_CV_ACADEMIC.pdf"
 
 const SectionHeader = styled.div`
   background-color: #24243c;
@@ -46,7 +47,7 @@ export default function About() {
       >
         Protik Chanda
       </h2>
-      <a href={PROTIK_CHANDA_RESUME_CS_ACADEMIC}>
+      <a href={PROTIK_CV_ACADEMIC}>
         <p
           style={{
             color: "black",
@@ -56,7 +57,19 @@ export default function About() {
             textAlign: "center",
           }}
         >
-          View Resume
+          View Academic CV
+        </p>
+        <a href={PROTIK_CHANDA_RESUME_SWE}>
+        <p
+          style={{
+            color: "black",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+          }}
+        >
+          View Job Resume
         </p>
       </a>
       <h5
