@@ -59,6 +59,7 @@ export default function About() {
         >
           View Academic CV
         </p>
+        </a>
         <a href={PROTIK_CHANDA_RESUME_SWE}>
         <p
           style={{
